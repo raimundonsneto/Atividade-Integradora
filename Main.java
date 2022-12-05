@@ -24,6 +24,10 @@ public class Main {
 		C = sc.nextDouble();
 		
 		triangulo = A * C / 2.0;
+		circulo = 3.14159 * C * C;
+		trapezio = (A + B) / 2.0 * C;
+		quadrado = B * B;
+		retangulo = A * B;
 
 		
 		sc.close();
