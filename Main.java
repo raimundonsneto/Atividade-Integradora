@@ -1,9 +1,9 @@
 /*
- * Fazer um programa que leia três valores com ponto flutuante de dupla
- * precisão: A, B e C. Em seguida, calcule e mostre: a) a área do triângulo
- * retângulo que tem A por base e C por altura. b) a área do círculo de raio C.
- * (pi = 3.14159) c) a área do trapézio que tem A e B por bases e C por altura.
- * d) a área do quadrado que tem lado B. e) a área do retângulo que tem lados A
+ * Fazer um programa que leia trÃªs valores com ponto flutuante de dupla
+ * precisÃ£o: A, B e C. Em seguida, calcule e mostre: a) a Ã¡rea do triÃ¢ngulo
+ * retÃ¢ngulo que tem A por base e C por altura. b) a Ã¡rea do cÃ­rculo de raio C.
+ * (pi = 3.14159) c) a Ã¡rea do trapÃ©zio que tem A e B por bases e C por altura.
+ * d) a Ã¡rea do quadrado que tem lado B. e) a Ã¡rea do retÃ¢ngulo que tem lados A
  * e B.
  */
 import java.util.Locale;
@@ -22,6 +22,9 @@ public class Main {
 		A = sc.nextDouble();
 		B = sc.nextDouble();
 		C = sc.nextDouble();
+		
+		triangulo = A * C / 2.0;
+
 		
 		sc.close();
 
