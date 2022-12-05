@@ -6,10 +6,15 @@
  * d) a área do quadrado que tem lado B. e) a área do retângulo que tem lados A
  * e B.
  */
+import java.util.Locale;
+import java.util.Scanner;
+
 
 public class Main {
 
 	public static void main(String[] args) {
+		
+		double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
 
 	}
 
