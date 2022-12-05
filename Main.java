@@ -12,9 +12,19 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
 		double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
+
+		A = sc.nextDouble();
+		B = sc.nextDouble();
+		C = sc.nextDouble();
+		
+		sc.close();
+
 
 	}
 
